@@ -1,0 +1,28 @@
+{
+  "name": "streamdeckvsc",
+  "version": "6.0.0",
+  "private": true,
+  "description": "Stream Deck plugin for Visual Studio Code (Node.js/TypeScript port of the original .NET plugin).",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.nicollasr.streamdeckvsc.mac\"",
+    "pack": "streamdeck pack build/com.nicollasr.streamdeckvsc.mac.sdPlugin -f",
+    "test": "npm run build && node test/e2e.mjs"
+  },
+  "dependencies": {
+    "@elgato/streamdeck": "^3.0.3",
+    "@elgato/utils": "^0.6.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@elgato/cli": "^1.10.3",
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@types/node": "^24.0.0",
+    "@types/ws": "^8.5.10",
+    "rollup": "^4.24.0",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.0"
+  }
+}
