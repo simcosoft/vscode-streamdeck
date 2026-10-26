@@ -28,7 +28,7 @@ const settingsIni = path.join(pluginRoot, "settings.ini");
 
 const SDK_INFO = JSON.stringify({
   application: { language: "en", platform: "mac", platformVersion: "13.0", version: "7.1.0" },
-  plugin: { version: "6.0.0" },
+  plugin: { version: "1.0.0" },
   devices: [{ id: "dev-1", name: "Stream Deck", size: { columns: 8, rows: 4 }, type: 2 }]
 });
 

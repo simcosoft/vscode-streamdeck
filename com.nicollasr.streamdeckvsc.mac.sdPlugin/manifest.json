@@ -1,0 +1,105 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/VisualStudioCode",
+      "Name": "Execute Command",
+      "States": [
+        {
+          "Image": "Images/VisualStudioCode"
+        }
+      ],
+      "Tooltip": "Executes a Visual Studio Code command with the given command identifier (Command ID).",
+      "SupportedInMultiActions": true,
+      "PropertyInspectorPath": "PropertyInspector/ExecuteCommand.html",
+      "UUID": "com.nicollasr.streamdeckvsc.executecommand"
+    },
+    {
+      "Icon": "Images/VisualStudioCode",
+      "Name": "Execute Terminal Command",
+      "States": [
+        {
+          "Image": "Images/VisualStudioCode"
+        }
+      ],
+      "Tooltip": "Executes a terminal command.",
+      "SupportedInMultiActions": true,
+      "PropertyInspectorPath": "PropertyInspector/ExecuteTerminalCommand.html",
+      "UUID": "com.nicollasr.streamdeckvsc.executeterminalcommand"
+    },
+    {
+      "Icon": "Images/VisualStudioCode",
+      "Name": "Insert Snippet",
+      "States": [
+        {
+          "Image": "Images/VisualStudioCode"
+        }
+      ],
+      "Tooltip": "Insert snippet.",
+      "SupportedInMultiActions": true,
+      "PropertyInspectorPath": "PropertyInspector/InsertSnippet.html",
+      "UUID": "com.nicollasr.streamdeckvsc.insertsnippet"
+    },
+    {
+      "Icon": "Images/VisualStudioCode",
+      "Name": "Change Language",
+      "States": [
+        {
+          "Image": "Images/VisualStudioCode"
+        }
+      ],
+      "Tooltip": "Change the language that is associated with the given document.",
+      "SupportedInMultiActions": true,
+      "PropertyInspectorPath": "PropertyInspector/ChangeLanguage.html",
+      "UUID": "com.nicollasr.streamdeckvsc.changelanguage"
+    },
+    {
+      "Icon": "Images/VisualStudioCode",
+      "Name": "Create Terminal",
+      "States": [
+        {
+          "Image": "Images/VisualStudioCode"
+        }
+      ],
+      "Tooltip": "Creates a terminal with the given settings.",
+      "SupportedInMultiActions": true,
+      "PropertyInspectorPath": "PropertyInspector/CreateTerminal.html",
+      "UUID": "com.nicollasr.streamdeckvsc.createterminal"
+    },
+    {
+      "Icon": "Images/VisualStudioCode",
+      "Name": "Open Folder",
+      "States": [
+        {
+          "Image": "Images/VisualStudioCode"
+        }
+      ],
+      "Tooltip": "Open a folder or workspace.",
+      "SupportedInMultiActions": true,
+      "PropertyInspectorPath": "PropertyInspector/OpenFolder.html",
+      "UUID": "com.nicollasr.streamdeckvsc.openfolder"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Nicollas R.",
+  "UUID": "com.nicollasr.streamdeckvsc.mac",
+  "CodePath": "bin/plugin.js",
+  "Nodejs": {
+    "Version": "24"
+  },
+  "Description": "Enables Stream Deck integration with Visual Studio Code. This plugin requires Visual Studio Code extension `Stream Deck for Visual Studio Code`.",
+  "Name": "Visual Studio Code",
+  "Icon": "Images/VisualStudioCode",
+  "Category": "Visual Studio Code",
+  "CategoryIcon": "Images/VisualStudioCode",
+  "URL": "https://github.com/nicollasricas/streamdeckvsc",
+  "Version": "1.0.0.0",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.15"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "7.1"
+  }
+}
