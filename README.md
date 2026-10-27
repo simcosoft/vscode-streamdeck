@@ -40,6 +40,10 @@ Target platform: **macOS on Apple Silicon (ARM64)**, Stream Deck 7.1+.
 - Node.js 24+ (for building); Stream Deck 7.1+ (its embedded Node runtime runs the plugin).
 - VS Code extension `nicollasr.vscode-streamdeck` — unchanged.
 
+## Versioning
+
+Version `6.0.0` is intentional: it prevents Stream Deck from automatically replacing this Node.js/TypeScript port with the legacy .NET build.
+
 ## Build and verify
 
 ```sh

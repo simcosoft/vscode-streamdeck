@@ -44,4 +44,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: com.nicollasr.streamdeckvsc.mac.streamDeckPlugin
-          generate_release_notes: true
+          body: |
+            Version 6.0.0 is intentional: it prevents Stream Deck from automatically replacing this Node.js/TypeScript port with the legacy .NET build.
+          generate_release_notes: false

@@ -91,8 +91,8 @@
   "Icon": "Images/VisualStudioCode",
   "Category": "Visual Studio Code",
   "CategoryIcon": "Images/VisualStudioCode",
-  "URL": "https://github.com/nicollasricas/streamdeckvsc",
-  "Version": "1.0.0.0",
+  "URL": "https://github.com/simcosoft/vscode-streamdeck",
+  "Version": "6.0.0.0",
   "OS": [
     {
       "Platform": "mac",
