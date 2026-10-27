@@ -42,7 +42,7 @@ Target platform: **macOS on Apple Silicon (ARM64)**, Stream Deck 7.1+.
 
 ## Versioning
 
-Version `6.0.0` is intentional: it prevents Stream Deck from automatically replacing this Node.js/TypeScript port with the legacy .NET build.
+Version `6.0.x` is intentional: it prevents Stream Deck from automatically replacing this Node.js/TypeScript port with the legacy .NET build.
 
 ## Build and verify
 
